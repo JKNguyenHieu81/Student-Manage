@@ -12,7 +12,7 @@
 			<th>Mã sv</th>
 			<th>Năm sinh</th>
 			<th>Lớp</th>
-			<th><a href="add.html">Thêm Sinh Viên</a></th>
+			<th><a href="add.php">Thêm Sinh Viên</a></th>
 		</tr>
 		<?php 
 			include "config.php";
@@ -25,7 +25,7 @@
 			<td><?php echo $rows["masinhvien"]; ?></td>
 			<td><?php echo $rows["namsinhsv"]; ?></td>
 			<td><?php echo $rows["lop"]; ?></td>
-			<td><a href="edit.html?this_masinhvien=<?php echo $rows["masinhvien"]; ?>">Sửa Thông Tin</a> | <a href="delete.html?this_masinhvien=<?php echo $rows["masinhvien"]; ?>">Xoá Sinh Viên</a></td>
+			<td><a href="edit.php?this_masinhvien=<?php echo $rows["masinhvien"]; ?>">Sửa Thông Tin</a> | <a href="delete.php?this_masinhvien=<?php echo $rows["masinhvien"]; ?>">Xoá Sinh Viên</a></td>
 		</tr>
 		<?php } ?>
 	</table>
