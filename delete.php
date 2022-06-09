@@ -8,17 +8,11 @@
 	<title>Xóa sinh viên</title>
 </head>
 <body>
-	
-
 <?php 
 	include "config.php";
-
 	$this_masinhvien = $_GET['this_masinhvien'];
-
-	$sql = "DELETE FROM manageDB WHERE masinhvien='$this_masinhvien'";
-
+	$sql = "DELETE FROM baitapgodiem WHERE masinhvien='$this_masinhvien'";
 	echo "Sinh viên ->" . $this_masinhvien . " đã được xóa!";
-
 	mysqli_query($conn,$sql);
  ?>
 </body>
