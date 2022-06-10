@@ -3,10 +3,64 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-
 .form-section {
-  width: 30%;
-  height: 300px;
+  width: 40%;
+  height: 400px;
   color: white;
   background-color: #148fad;
+  margin-top: 10%;
+  margin-left: 36%;
+}
+
+input {
+  border: none;
+  outline: none;
+  height: 19px;
+}
+
+.title{
+  padding-left: 14%;
+}
+.add-name{
+  margin-left: 1%;
+}
+.add-id{
+  margin-left: 1.7%;
+}
+.add-birthday{
+  margin-left: 6%;
+}
+.add-class{
+  margin-left: 14.6%;
+}
+.add-address{
+  margin-left: 9.8%;
+}
+
+.add-name, .add-id, .add-birthday,.add-class{
+  margin-bottom: 3%;
+}
+
+.add-btn{
+  margin-top: 10%;
+  width: 150px;
+  height: 40px;
+  font-size: 14px;
+  margin-left: 37%;
+  background-color: #2d5c6b;
+  color: white;
+  transition: .5s;
+}
+.add-btn:hover{
+  background-color:#202f40;
+}
+
+.back-home {
+  margin-left: 54%;
+  background: #528945;
+  width: 80px;
+  border-radius: 2px;
+  color: wheat;
+  cursor: pointer;
+  height: 30px;
 }
